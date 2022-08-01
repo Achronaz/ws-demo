@@ -1,4 +1,4 @@
-package com.example.demo.config.websocket;
+package com.example.demo.controller;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -11,11 +11,10 @@ import java.util.Map;
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
-public class WsResponse {
-    private String status;
+public class WsSendRequest {
+
+    private String sessionId;
     private String type;
-    private String id;
-    private String msg;
     private Map<String,Object> data;
 
 }
