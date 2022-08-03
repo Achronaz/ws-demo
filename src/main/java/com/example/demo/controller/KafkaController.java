@@ -1,6 +1,7 @@
 package com.example.demo.controller;
 
 import com.example.demo.config.kafka.KafkaConfig;
+import com.example.demo.config.websocket.WebSocketHandler;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.kafka.core.KafkaTemplate;
